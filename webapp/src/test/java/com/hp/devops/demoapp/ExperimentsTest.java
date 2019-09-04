@@ -12,7 +12,7 @@ import java.security.InvalidParameterException;
  * Time: 14:48
  * To change this template use File  | Settings | File Templates.
  */
-public class ExperimentsTests {
+public class ExperimentsTest {
 
 	@Test
 	public void dataManagerTestA12() {
