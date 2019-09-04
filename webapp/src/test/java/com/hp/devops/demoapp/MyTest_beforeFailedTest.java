@@ -2,7 +2,6 @@ package com.hp.devops.demoapp;
 
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 /**
@@ -10,8 +9,8 @@ import org.junit.Test;
  */
 public class MyTest_beforeFailedTest {
 
-    @BeforeClass
-    public static void before_failed() {
+    @Before
+    public void before_failed() {
         String str = null;
         System.out.println(str.length());
     }
