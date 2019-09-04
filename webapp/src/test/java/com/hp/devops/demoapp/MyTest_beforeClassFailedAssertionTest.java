@@ -5,7 +5,7 @@ import org.junit.*;
 /**
  * check reports in case of failures in BeforeClass
  */
-public class MyTest_beforeClassFailedAssertion {
+public class MyTest_beforeClassFailedAssertionTest {
 
 	@BeforeClass
 	public static void beforeAll_assertion() {

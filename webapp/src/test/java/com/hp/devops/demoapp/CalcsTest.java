@@ -20,11 +20,6 @@ public class CalcsTest {
 //yet another comment...
 
 
-    @BeforeClass
-    public static void beforeAll_assertion() {
-        Assert.assertNotNull(null);
-    }
-
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1,5));

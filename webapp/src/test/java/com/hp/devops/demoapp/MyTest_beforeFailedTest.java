@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * check reports in case of failures in BeforeClass
  */
-public class MyTest_beforeFailed {
+public class MyTest_beforeFailedTest {
 
     @Before
     public void before_failed() {

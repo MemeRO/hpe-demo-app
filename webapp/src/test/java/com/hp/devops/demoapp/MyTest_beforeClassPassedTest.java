@@ -7,11 +7,11 @@ import org.junit.Test;
 /**
  * check reports in case of failures in BeforeClass
  */
-public class MyTest_beforeClassFailedNPE {
+public class MyTest_beforeClassPassedTest {
 
 	@BeforeClass
 	public static void beforeAll_NPE() {
-		String str = null;
+		String str = "aaa";
 		System.out.println(str.length());
 	}
 
