@@ -9,6 +9,11 @@ import org.junit.Test;
  */
 public class MyTest_beforeClassFailedNPETest {
 
+	@BeforeClass
+	public static void beforeAll_NPE() {
+		String str = null;
+		System.out.println(str.length());
+	}
 
 	@Test
 	public void passed1() {
