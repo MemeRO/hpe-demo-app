@@ -9,7 +9,11 @@ import org.junit.Test;
  */
 public class MyTest_beforeFailed {
 
-
+    @Before
+    public void before_failed() {
+        String str = null;
+        System.out.println(str.length());
+    }
 
     @Test
     public void passed1() {

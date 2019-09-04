@@ -1,10 +1,10 @@
 package com.hp.devops.demoapp;
 
-import org.junit.Before;
+import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -19,11 +19,11 @@ import static org.junit.Assert.assertTrue;
 public class CalcsTest {
 //yet another comment...
 
-	@Before
-	public void before_failed() {
-		String str = null;
-		System.out.println(str.length());
-	}
+
+    @BeforeClass
+    public static void beforeAll_assertion() {
+        Assert.assertNotNull(null);
+    }
 
 	@Test
 	public void sum_test_A() {
