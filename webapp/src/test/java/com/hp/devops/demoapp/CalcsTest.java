@@ -1,5 +1,6 @@
 package com.hp.devops.demoapp;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -17,6 +18,13 @@ import static org.junit.Assert.assertTrue;
  */
 public class CalcsTest {
 //yet another comment...
+
+	@Before
+	public void before_failed() {
+		String str = null;
+		System.out.println(str.length());
+	}
+
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1,5));
