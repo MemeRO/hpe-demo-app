@@ -11,7 +11,7 @@ import org.junit.Test;
 public class MyTest_beforeFailedTest {
 
     @BeforeClass
-    public void before_failed() {
+    public static void before_failed() {
         String str = null;
         System.out.println(str.length());
     }
