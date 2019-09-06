@@ -1,4 +1,4 @@
-package com.hp.devops.demoapp.something;
+package com.hp.devops.demoapp;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;
