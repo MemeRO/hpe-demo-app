@@ -1,7 +1,7 @@
 package com.hp.devops.demoapp;
 
 
-public class Mega-test {
+public class MegaTest {
 
 	public static int sum(int a, int b) {     //  1 test covers this
 		return a + b;
