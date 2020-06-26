@@ -521,5 +521,8 @@ public class megaTest {
 
 	@Test
 	public void always_false_A9() {assertTrue(Calcs.alwaysTrue());}
+	
+	@Test
+	public void newTest() {assertTrue(Calcs.alwaysTrue());}
 
 }
