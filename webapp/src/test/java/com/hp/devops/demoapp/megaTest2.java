@@ -13,3 +13,4 @@ public class megaTest2 {
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1,5));
 	}
+}
