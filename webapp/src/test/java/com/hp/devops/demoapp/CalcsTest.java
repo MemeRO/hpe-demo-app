@@ -1,6 +1,8 @@
 package com.hp.devops.demoapp;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -14,9 +16,16 @@ import static org.junit.Assert.assertTrue;
  *
  *
  */
+@RunWith(Parameterized.class)
 public class CalcsTest {
 //yet another comment...
 
+	@Parameterized.Parameters
+	public static Object[][] data() {
+		return new Object[3][0];
+	}
+	public CalcsTest(){
+	}
 
 	@Test
 	public void sum_test_A() {
