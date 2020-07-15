@@ -1,14 +1,23 @@
 package com.hp.devops.demoapp;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+import java.lang.annotation.Repeatable;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-
+@RunWith(Parameterized.class)
 public class megaTest {
 
-
+	@Parameterized.Parameters
+	public static Object[][] data() {
+		return new Object[3][0];
+	}
+	public megaTest(){
+	}
 	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1,5));
