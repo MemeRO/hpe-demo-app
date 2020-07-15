@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
 public class megaTest {
 
 
-	@RepeatedTest(5)
+	@Test
 	public void sum_test_A() {
 		assertEquals(3, Calcs.sum(1,5));
 	}
